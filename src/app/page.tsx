@@ -1,7 +1,7 @@
 "use client";
 
 import CreateForm from "./components/createForm";
-
+import "./shared/globals.css";
 export default function Home() {
   return (
     <main className="content">
