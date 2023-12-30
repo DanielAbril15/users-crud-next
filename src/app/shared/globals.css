@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.master-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 100%;
+  min-height: 100vh;
+  gap: 16px;
+}
+.show-menu {
+  opacity: 1;
+  z-index: 100;
+  position: absolute;
+  left: 10px;
+  top: 67px;
+  height: 96px;
+  width: 200px;
+  background-color: #fff;
+  box-shadow: 3px 2px 5px 0px #00000056;
+  transition: all 500ms ease;
+}
+.not-show {
+  top: 48px;
+  z-index: -100;
+  position: absolute;
+  width: 200px;
+  opacity: 0;
+  transition: all 500ms ease;
+}
+.image-company {
+  width: 160px;
+}
+.bg-menu {
+  background-color: #ededed;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 350px;
+  height: 500px;
+  margin: auto;
+  border-radius: 10px;
+  padding: 30px 16px;
+  justify-content: space-between;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.206);
+}
+.form-container-edit {
+  background-color: #fff;
+  width: 300px;
+  height: auto;
+}
+.inputs-container {
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+.main-content {
+  width: 100%;
+  display: grid;
+  align-items: center;
+}
+.icon-user {
+  align-self: center;
+  margin-bottom: 20px;
+}
+.title {
+  font-size: 2rem;
+}
+.content {
+  margin-top: 20px;
+}
+.input-none {
+  display: none;
+}
+.card-row {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 0.3fr 0.7fr 1.3fr 1.5fr 0.3fr;
+  height: 50px;
+  align-items: center;
+}
+.edit-btn svg {
+  width: 20px;
+  color: #60a5fa;
+}
+.edit-btn svg:hover {
+  color: #1976d2;
+}
+.avatar-edit {
+  margin: auto;
+  width: 70px;
+  height: 70px;
+  font-size: 3rem;
+}
+
+@media screen and (min-width: 800px) {
+  .master-container {
+    flex-direction: row;
+  }
+  .content {
+    margin-top: 0px;
+  }
+}
