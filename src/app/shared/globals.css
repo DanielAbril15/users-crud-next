@@ -10,6 +10,11 @@
   min-height: 100vh;
   gap: 16px;
 }
+.disclaimer {
+  margin: 60px auto;
+  width: 90%;
+  max-width: 500px;
+}
 .show-menu {
   opacity: 1;
   z-index: 100;
