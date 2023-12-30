@@ -39,7 +39,8 @@
   width: 160px;
 }
 .bg-menu {
-  background-color: #ededed;
+  background-color: #f9fafb;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.206);
 }
 .form-container {
   display: flex;
@@ -80,14 +81,14 @@
   margin-top: 20px;
 }
 .input-none {
-  display: none;
+  display: none !important;
 }
 .card-row {
-  display: grid;
+  display: grid !important;
   grid-template-rows: 1fr;
-  grid-template-columns: 0.3fr 0.7fr 1.3fr 1.5fr 0.3fr;
+  grid-template-columns: 0.3fr 0.7fr 1.3fr 1.5fr 0.3fr !important;
   height: 50px;
-  align-items: center;
+  align-items: center !important;
 }
 .edit-btn svg {
   width: 20px;
@@ -101,6 +102,13 @@
   width: 70px;
   height: 70px;
   font-size: 3rem;
+}
+.create-bt {
+  background-color: #60a5fa !important;
+}
+.movil-menu {
+  background-color: #f9fafb !important;
+  color: #000000 !important;
 }
 
 @media screen and (min-width: 800px) {

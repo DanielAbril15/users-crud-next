@@ -140,6 +140,7 @@ export default function User({ params }: any) {
           onClick={deleteUser}
           className="bg-red-400 hover:bg-red-600"
           variant="contained"
+          color="error"
         >
           Delete
         </Button>

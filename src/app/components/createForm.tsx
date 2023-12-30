@@ -101,7 +101,7 @@ export default function CreateForm() {
           </FormControl>
           <Button
             onClick={handleSubmit(createUser)}
-            className="bg-blue-400"
+            className="create-btn "
             variant="contained"
           >
             Create
