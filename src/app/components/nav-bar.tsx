@@ -62,6 +62,24 @@ export default function NavBar() {
             <UserGroupIcon className="w-6" />
             Users
           </Link>
+          <Link
+            target="_blank"
+            href="https://github.com/DanielAbril15/users-crud-next"
+            onClick={handleClick}
+            className="flex h-[48px] grow items-center gap-2 rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-stone-200 hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3"
+          >
+            <PaintBrushIcon className="w-6" />
+            Front Repo
+          </Link>
+          <Link
+            target="_blank"
+            href="https://github.com/DanielAbril15/users-crud-nest"
+            onClick={handleClick}
+            className="flex h-[48px] grow items-center gap-2 rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-stone-200 hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3"
+          >
+            <CpuChipIcon className="w-6" />
+            Back Repo
+          </Link>
         </article>
       </Box>
       <article className="hidden md:block">
