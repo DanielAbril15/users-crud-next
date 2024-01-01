@@ -36,7 +36,7 @@ export default function User({ params }: any) {
       .catch((err) => {
         console.log(err);
       });
-  }, []);
+  }, [user]);
 
   const deleteUser = () => {
     Swal.fire({
